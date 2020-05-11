@@ -1,0 +1,31 @@
+{
+  "name": "devman87/simple-pdo-wrapper",
+  "description": "Simple Pdo Wrapper",
+  "keywords": [
+    "pdo",
+    "pdo-php",
+    "pdowrapper",
+    "pdo-wrapper",
+    "pdo-mysql",
+    "pdo-pgsql",
+    "pdo-sqlite"
+  ],
+  "homepage": "https://github.com/devman87/simplePdoWrapper",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Developer",
+      "role": "Developer",
+      "homepage": "https://github.com/devman87"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimplePdoWrapper\\": "src"
+    }
+  }
+}
